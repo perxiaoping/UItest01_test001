@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_mp_login",
+      "children" : [ {
+        "name" : "TestMpLogin",
+        "children" : [ {
+          "name" : "test_mp_login",
+          "uid" : "140031c655dcd0e2",
+          "parentUid" : "dfcce83baf6a47a17046a7df0b4716da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1624420358308,
+            "stop" : 1624420360305,
+            "duration" : 1997
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dfcce83baf6a47a17046a7df0b4716da"
+      } ],
+      "uid" : "3e872ab99f963e7e4b52bc78a3fd25b1"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

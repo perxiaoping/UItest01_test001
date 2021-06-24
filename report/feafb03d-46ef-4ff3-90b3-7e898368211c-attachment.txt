@@ -1,0 +1,16 @@
+[32mINFO    [0m root:base.py:12 正在调用driver： <selenium.webdriver.chrome.webdriver.WebDriver (session="0a4f2296925107c4e6d8761b33a1a2b5")>
+[32mINFO    [0m root:page_mp_login.py:29 正在调用登录方法，密码为macro123
+[32mINFO    [0m root:base.py:17 正在调用查找元素方法 元素为：('css selector', "[name='password']")
+[32mINFO    [0m root:base.py:37 正在执行置空元素 ('css selector', "[name='password']") 操作
+[32mINFO    [0m root:base.py:40 正在调用输入方法 元素为：('css selector', "[name='password']")，输入值为：macro123
+[32mINFO    [0m root:base.py:45 正在调用点击元素 ('css selector', '.el-button--primary') 方法
+[32mINFO    [0m root:base.py:17 正在调用查找元素方法 元素为：('css selector', '.el-button--primary')
+[32mINFO    [0m root:base.py:17 正在调用查找元素方法 元素为：('css selector', '.layout-title')
+[32mINFO    [0m root:base.py:54 正在调用获取文本方法,获取的元素为 ('css selector', '.layout-title'),获取文本值为 后台项目
+[32mINFO    [0m root:base.py:17 正在调用查找元素方法 元素为：('css selector', '.layout-title')
+[1m[31mERROR   [0m root:test_mp_login.py:30 断言出错，输出错误信息 assert '后台项目!' == '后台项目'
+  - 后台项目
+  + 后台项目!
+  ?     +
+[1m[31mERROR   [0m root:base.py:63 断言出错了，正在调用截图方法
+[1m[31mERROR   [0m root:base.py:66 正在将错误图片写入报告
